@@ -1,18 +1,27 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Temporary folders #
+#####################
+temp
+template
+output
+fsh-generated
 
-# Other files and folders
-.settings/
+# Working files #
+#################
+.index.json
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Don't commit this because it's so large #
+###########################################
+/input-cache
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Windows generated files #
+###########################
+Thumbs.db
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+
+# backup files #
+################
+*.bak
