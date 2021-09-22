@@ -1,5 +1,4 @@
-## OpenELIS Global2 FHIR Implementation Guide Implementation Guide
-Build & Publish
+## OpenELIS Global2 FHIR Implementation Guide 
 
 ### Overview
 An Implementation Guide covering the OpenELIS GLOBAL2 implementation of FHIR
