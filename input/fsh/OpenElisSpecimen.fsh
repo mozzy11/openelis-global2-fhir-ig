@@ -46,8 +46,9 @@ Description: "OpenElis Specimen Example Resource"
 * accessionIdentifier[0].value = "TESTA230000000001751"
 * identifier[uuid].system = "https://demo.openelis-global.org/sampleItem_uuid"
 * identifier[uuid].value = "9df49e2d-57f7-4e7b-abb1-54d0a1933253"
-* type.coding.system = "http://loinc.org"
-* type.coding.display = "Plasma"
+* type.coding[0].system = "http://snomed.info/sct"
+* type.coding[0].code = #119361006
+* type.coding[0].display = "Plasma specimen"
 * status = #available
 * receivedTime = "2023-03-03T07:03:00Z"
 * collection.collectedDateTime = 2023-02-03

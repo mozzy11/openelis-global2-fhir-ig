@@ -36,7 +36,8 @@ Description: "OpenELIS Organization Example"
 * address[=].city = "GREENWOOD"
 * address[=].postalCode = "98103"
 * type[0].coding[0].code = #prov
-* type[0].coding[0].display = "referralLab"
+* type[0].coding[0].system = "http://terminology.hl7.org/CodeSystem/organization-type"
+* type[0].coding[0].display = "Healthcare Provider"
 
 Mapping: OpenELISOrganizationMapping
 Source: OpenELISOrganisation
