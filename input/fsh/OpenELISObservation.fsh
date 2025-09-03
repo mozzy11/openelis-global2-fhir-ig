@@ -2,7 +2,8 @@ Profile: OpenELISObservation
 Parent: Observation
 Id: open-elis-observation
 Title: "OpenELIS Observation"
-Description: "A Observation Resource used for FHIR Exchange"
+Description: "An Observation Resource used for FHIR Exchange"
+
 * identifier 0..*
 * identifier ^slicing.discriminator.type = #value
 * identifier ^slicing.discriminator.path = "system"
@@ -10,9 +11,10 @@ Description: "A Observation Resource used for FHIR Exchange"
 * identifier contains uuid 1..1
 * identifier[uuid] ^sliceName = "uuid"
 * identifier[uuid].system = "https://demo.openelis-global.org/result_uuid"
+
 * status 1..1
 * code 1..1
-* status 1..1
+* value[x] only Quantity
 * value[x] 1..1
 * basedOn 1..1
 * basedOn only Reference(OpenELISServiceRequest)
@@ -20,6 +22,10 @@ Description: "A Observation Resource used for FHIR Exchange"
 * specimen only Reference(Specimen)
 * subject 1..1
 * subject only Reference(OpenELISPatient)
+* performer 0..*
+* performer only Reference(OpenELISPractitioner)
+* effective[x] only dateTime
+* effective[x] 0..1
 
 
 Mapping: ObservationMapping
@@ -43,6 +49,7 @@ InstanceOf: OpenELISObservation
 Usage: #example
 Title: "OpenElis Observation Example"
 Description: "OpenElis Observation Example Resource"
+
 * identifier[uuid].system = "https://demo.openelis-global.org/result_uuid"
 * identifier[uuid].value = "158999b0-b295-4dfd-a5b0-81ed58733b5f"
 * status = #final
@@ -52,5 +59,8 @@ Description: "OpenElis Observation Example Resource"
 * specimen = Reference(OpenElisSpecimenExample)
 * subject = Reference(example-openelis-patient)
 * code.coding.code = #15074-8
-* code.coding.display = "Glucose [Moles/volume] in Blood"
+* code.coding.display = "Glucose Bld-sCnc"
 * code.coding.system = "http://loinc.org"
+* performer = Reference(OpenELISPractitionerExample)
+* effectiveDateTime = "2025-09-03T11:30:00Z"
+
