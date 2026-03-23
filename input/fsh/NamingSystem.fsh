@@ -8,7 +8,7 @@ Usage: #definition
 * publisher = "OpenELIS Global"
 * description = "Defined url for OpenElisDiagnosticReport identifier system url "
 * uniqueId.type = #uri
-* uniqueId.value = "https://demo.openelis-global.org/analysisResult_uuid"
+* uniqueId.value = "http://openelis-global.org/analysisResult_uuid"
 * uniqueId.preferred = true
 
 
@@ -22,7 +22,7 @@ Usage: #definition
 * publisher = "OpenELIS Global"
 * description = "Defined url for OpenELISObservation identifier system url "
 * uniqueId.type = #uri
-* uniqueId.value = "https://demo.openelis-global.org/result_uuid"
+* uniqueId.value = "http://openelis-global.org/result_uuid"
 * uniqueId.preferred = true
 
 
@@ -36,13 +36,13 @@ Usage: #definition
 * publisher = "OpenELIS Global"
 * description = "Defined url for OpenELISOrganization identifier system url "
 * uniqueId[0].type = #uri
-* uniqueId[0].value = "https://demo.openelis-global.org/org_uuid"
+* uniqueId[0].value = "http://openelis-global.org/org_uuid"
 * uniqueId[1].type = #uri
-* uniqueId[1].value = "https://demo.openelis-global.org/org_cliaNum"
+* uniqueId[1].value = "http://openelis-global.org/org_cliaNum"
 * uniqueId[2].type = #uri
-* uniqueId[2].value = "https://demo.openelis-global.org/org_shortName"
+* uniqueId[2].value = "http://openelis-global.org/org_shortName"
 * uniqueId[3].type = #uri
-* uniqueId[3].value = "https://demo.openelis-global.org/org_code"
+* uniqueId[3].value = "http://openelis-global.org/org_code"
 * uniqueId.preferred = true
 
 
@@ -56,15 +56,15 @@ Usage: #definition
 * publisher = "OpenELIS Global"
 * description = "Defined url for OpenELISPatient identifier system url "
 * uniqueId[0].type = #uri
-* uniqueId[0].value = "https://demo.openelis-global.org/pat_nationalId"
+* uniqueId[0].value = "http://openelis-global.org/pat_nationalId"
 * uniqueId[1].type = #uri
-* uniqueId[1].value = "https://demo.openelis-global.org/pat_subjectNumber"
+* uniqueId[1].value = "http://openelis-global.org/pat_subjectNumber"
 * uniqueId[2].type = #uri
-* uniqueId[2].value = "https://demo.openelis-global.org/pat_stNumber"
+* uniqueId[2].value = "http://openelis-global.org/pat_stNumber"
 * uniqueId[3].type = #uri
-* uniqueId[3].value = "https://demo.openelis-global.org/pat_guid"
+* uniqueId[3].value = "http://openelis-global.org/pat_guid"
 * uniqueId[4].type = #uri
-* uniqueId[4].value = "https://demo.openelis-global.org/pat_uuid"
+* uniqueId[4].value = "http://openelis-global.org/pat_uuid"
 * uniqueId.preferred = true
 
 Instance: OpenELISServiceRequestIdentifierSystem
@@ -77,9 +77,9 @@ Usage: #definition
 * publisher = "OpenELIS Global"
 * description = "Defined url for OpenELISServiceRequest identifier system url "
 * uniqueId[0].type = #uri
-* uniqueId[0].value = "https://demo.openelis-global.org/analysis_uuid"
+* uniqueId[0].value = "http://openelis-global.org/analysis_uuid"
 * uniqueId[1].type = #uri
-* uniqueId[1].value = "https://demo.openelis-global.org/samp_labNo"
+* uniqueId[1].value = "http://openelis-global.org/samp_labNo"
 * uniqueId.preferred = true
 
 
@@ -93,7 +93,7 @@ Usage: #definition
 * publisher = "OpenELIS Global"
 * description = "Defined url for Specimen identifier system url "
 * uniqueId[0].type = #uri
-* uniqueId[0].value = "https://demo.openelis-global.org/sampleItem_uuid"
+* uniqueId[0].value = "http://openelis-global.org/sampleItem_uuid"
 * uniqueId[1].type = #uri
-* uniqueId[1].value = "https://demo.openelis-global.org/sampleItem_labNo"
+* uniqueId[1].value = "http://openelis-global.org/sampleItem_labNo"
 * uniqueId.preferred = true

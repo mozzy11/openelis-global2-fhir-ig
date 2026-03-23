@@ -8,7 +8,7 @@ Description: "A Specimen Resource used for FHIR Exchange"
 * identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #open
 * identifier contains uuid 1..1
-* identifier[uuid].system = "https://demo.openelis-global.org/sampleItem_uuid"
+* identifier[uuid].system = "http://openelis-global.org/sampleItem_uuid"
 * accessionIdentifier 1..1
 * type 1..1
 * status 1..1
@@ -42,9 +42,9 @@ InstanceOf: OpenElisSpecimen
 Usage: #example
 Title: "OpenElis Specimen Example"
 Description: "OpenElis Specimen Example Resource"
-* accessionIdentifier[0].system = "https://demo.openelis-global.org/sampleItem_labNo"
+* accessionIdentifier[0].system = "http://openelis-global.org/sampleItem_labNo"
 * accessionIdentifier[0].value = "TESTA230000000001751"
-* identifier[uuid].system = "https://demo.openelis-global.org/sampleItem_uuid"
+* identifier[uuid].system = "http://openelis-global.org/sampleItem_uuid"
 * identifier[uuid].value = "9df49e2d-57f7-4e7b-abb1-54d0a1933253"
 * type.coding[0].system = "http://snomed.info/sct"
 * type.coding[0].code = #119361006
