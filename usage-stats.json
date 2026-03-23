@@ -4,14 +4,68 @@
   "fhirVersion": "4.0.1",
   "extensions": [],
   "profiles": {
+    "Location": [
+      {
+        "url": "http://digi-uw.github.io/openelis-global-ig/StructureDefinition/open-elis-location",
+        "title": "OpenELIS Facility Location"
+      }
+    ],
+    "Observation": [
+      {
+        "url": "http://digi-uw.github.io/openelis-global-ig/StructureDefinition/open-elis-observation",
+        "title": "OpenELIS Observation"
+      }
+    ],
+    "Specimen": [
+      {
+        "url": "http://digi-uw.github.io/openelis-global-ig/StructureDefinition/open-elis-specimen",
+        "title": "OpenElis Specimen"
+      }
+    ],
+    "Organization": [
+      {
+        "url": "http://digi-uw.github.io/openelis-global-ig/StructureDefinition/open-elisorganisation",
+        "title": "OpenELIS Organization"
+      }
+    ],
+    "Practitioner": [
+      {
+        "url": "http://digi-uw.github.io/openelis-global-ig/StructureDefinition/open-elispractitioner",
+        "title": "OpenELIS Practitioner"
+      }
+    ],
+    "DiagnosticReport": [
+      {
+        "url": "http://digi-uw.github.io/openelis-global-ig/StructureDefinition/openelis-diagnostic-report",
+        "title": "OpenELIS Diagnostic Report"
+      }
+    ],
     "Patient": [
       {
-        "url": "http://i-tech-uw.github.io/openelis-global-ig/StructureDefinition/openelis-patient",
-        "title": "OpenElis Patient"
+        "url": "http://digi-uw.github.io/openelis-global-ig/StructureDefinition/openelis-patient",
+        "title": "OpenELIS Patient"
+      }
+    ],
+    "ServiceRequest": [
+      {
+        "url": "http://digi-uw.github.io/openelis-global-ig/StructureDefinition/openelis-service-request",
+        "title": "OpenELIS Service Request"
+      }
+    ],
+    "Task": [
+      {
+        "url": "http://digi-uw.github.io/openelis-global-ig/StructureDefinition/openelis-task",
+        "title": "OpenElis Task"
       }
     ]
   },
   "usage": {
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url": [
+      "NamingSystem"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version": [
+      "NamingSystem"
+    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
     ],
@@ -21,16 +75,13 @@
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
       "StructureDefinition.snapshot.element.binding"
     ],
-    "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding": [
-      "StructureDefinition.snapshot.element.binding"
-    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
     ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
-      "StructureDefinition"
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
     ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
       "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
@@ -39,14 +90,24 @@
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
       "StructureDefinition.snapshot.element.type"
     ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category": [
-      "StructureDefinition"
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
+      "ImplementationGuide.definition.page",
+      "ImplementationGuide.definition.page.page"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
       "ImplementationGuide.definition"
     ],
+    "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
+      "ImplementationGuide.dependsOn"
+    ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
+      "StructureDefinition.snapshot"
     ]
   }
 }

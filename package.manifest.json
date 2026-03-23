@@ -1,6 +1,6 @@
 {
-  "version": "0.1.0",
-  "fhirVersion": "[4.0.1]",
-  "date": "20210923071830",
-  "name": "openelis"
+  "version" : "0.1.0",
+  "fhirVersion" : ["4.0.1"],
+  "date" : "20260323154649",
+  "name" : "openelis"
 }
