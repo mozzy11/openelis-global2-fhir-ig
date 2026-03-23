@@ -8,7 +8,7 @@ Description: "DiagnosticReport resource created by a LIS"
 * identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #open
 * identifier contains uuid 1..1
-* identifier[uuid].system = "https://demo.openelis-global.org/analysisResult_uuid"
+* identifier[uuid].system = "http://openelis-global.org/analysisResult_uuid"
 * status 1..1
 * code.coding 1..*
 * basedOn 1..1
@@ -25,7 +25,7 @@ InstanceOf: OpenELISDiagnosticReport
 Usage: #example
 Title: "OpenElis DiagnosticReport Example"
 Description: "OpenElis DiagnosticReport Example Resource"
-* identifier[uuid].system = "https://demo.openelis-global.org/analysisResult_uuid"
+* identifier[uuid].system = "http://openelis-global.org/analysisResult_uuid"
 * identifier[uuid].value = "f3c9cf5e-7d41-4a7d-a77b-8c0f4323a0bd"
 * status = #final
 * code.coding[0].system = "http://loinc.org"

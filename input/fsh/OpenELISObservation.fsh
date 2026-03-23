@@ -10,7 +10,7 @@ Description: "An Observation Resource used for FHIR Exchange"
 * identifier ^slicing.rules = #open
 * identifier contains uuid 1..1
 * identifier[uuid] ^sliceName = "uuid"
-* identifier[uuid].system = "https://demo.openelis-global.org/result_uuid"
+* identifier[uuid].system = "http://openelis-global.org/result_uuid"
 
 * status 1..1
 * code 1..1
@@ -50,7 +50,7 @@ Usage: #example
 Title: "OpenElis Observation Example"
 Description: "OpenElis Observation Example Resource"
 
-* identifier[uuid].system = "https://demo.openelis-global.org/result_uuid"
+* identifier[uuid].system = "http://openelis-global.org/result_uuid"
 * identifier[uuid].value = "158999b0-b295-4dfd-a5b0-81ed58733b5f"
 * status = #final
 * valueQuantity.value = 55

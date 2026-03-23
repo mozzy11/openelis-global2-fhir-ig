@@ -8,8 +8,8 @@ Description: "OpenELIS service request"
 * identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #open
 * identifier contains uuid 1..1 and labNo 1..1
-* identifier[uuid].system = "https://demo.openelis-global.org/analysis_uuid"
-* identifier[labNo].system = "https://demo.openelis-global.org/samp_labNo"
+* identifier[uuid].system = "http://openelis-global.org/analysis_uuid"
+* identifier[labNo].system = "http://openelis-global.org/samp_labNo"
 * intent 1..1
 * status 1..1
 * code 1..1
@@ -33,9 +33,9 @@ InstanceOf: OpenELISServiceRequest
 Usage: #example
 Title: "OpenElis Service Request Example"
 Description: "OpenElis ServiceRequest Example Resource"
-* identifier[uuid].system = "https://demo.openelis-global.org/analysis_uuid"
+* identifier[uuid].system = "http://openelis-global.org/analysis_uuid"
 * identifier[uuid].value = "0a65ab46-179e-4506-9fa3-09d342268576"
-* identifier[labNo].system = "https://demo.openelis-global.org/samp_labNo"
+* identifier[labNo].system = "http://openelis-global.org/samp_labNo"
 * identifier[labNo].value = "TESTA230000000001749"
 * intent = #original-order
 * status = #active
@@ -45,7 +45,7 @@ Description: "OpenElis ServiceRequest Example Resource"
 * subject = Reference(example-openelis-patient)
 * locationReference = Reference(LocationExample)
 * priority = #routine
-// * category[0].coding.system = "https://demo.openelis-global.org/sample_program"
+// * category[0].coding.system = "http://openelis-global.org/sample_program"
 * authoredOn =  2023-02-03
 * requester = Reference(OpenELISPractitionerExample)
 
