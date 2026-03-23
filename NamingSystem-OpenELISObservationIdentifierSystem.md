@@ -23,7 +23,7 @@
   "description" : "Defined url for OpenELISObservation identifier system url ",
   "uniqueId" : [{
     "type" : "uri",
-    "value" : "https://demo.openelis-global.org/result_uuid",
+    "value" : "http://openelis-global.org/result_uuid",
     "preferred" : true
   }]
 }

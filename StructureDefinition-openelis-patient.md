@@ -13,7 +13,7 @@
   "name" : "OpenELISPatient",
   "title" : "OpenELIS Patient",
   "status" : "draft",
-  "date" : "2026-03-23T15:46:49+00:00",
+  "date" : "2026-03-23T16:01:57+00:00",
   "description" : "A patient used for OpenELIS FHIR Exchange",
   "fhirVersion" : "4.0.1",
   "mapping" : [{
@@ -105,7 +105,7 @@
       "id" : "Patient.identifier:nationalid.system",
       "path" : "Patient.identifier.system",
       "min" : 1,
-      "patternUri" : "https://demo.openelis-global.org/pat_nationalId"
+      "patternUri" : "http://openelis-global.org/pat_nationalId"
     },
     {
       "id" : "Patient.identifier:subjectnumber",
@@ -118,7 +118,7 @@
       "id" : "Patient.identifier:subjectnumber.system",
       "path" : "Patient.identifier.system",
       "min" : 1,
-      "patternUri" : "https://demo.openelis-global.org/pat_subjectNumber"
+      "patternUri" : "http://openelis-global.org/pat_subjectNumber"
     },
     {
       "id" : "Patient.identifier:stnumber",
@@ -131,7 +131,7 @@
       "id" : "Patient.identifier:stnumber.system",
       "path" : "Patient.identifier.system",
       "min" : 1,
-      "patternUri" : "https://demo.openelis-global.org/pat_stNumber"
+      "patternUri" : "http://openelis-global.org/pat_stNumber"
     },
     {
       "id" : "Patient.identifier:guid",
@@ -144,7 +144,7 @@
       "id" : "Patient.identifier:guid.system",
       "path" : "Patient.identifier.system",
       "min" : 1,
-      "patternUri" : "https://demo.openelis-global.org/pat_guid"
+      "patternUri" : "http://openelis-global.org/pat_guid"
     },
     {
       "id" : "Patient.identifier:uuid",
@@ -157,7 +157,7 @@
       "id" : "Patient.identifier:uuid.system",
       "path" : "Patient.identifier.system",
       "min" : 1,
-      "patternUri" : "https://demo.openelis-global.org/pat_uuid"
+      "patternUri" : "http://openelis-global.org/pat_uuid"
     },
     {
       "id" : "Patient.name",

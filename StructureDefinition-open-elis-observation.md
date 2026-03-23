@@ -13,7 +13,7 @@
   "name" : "OpenELISObservation",
   "title" : "OpenELIS Observation",
   "status" : "draft",
-  "date" : "2026-03-23T15:46:49+00:00",
+  "date" : "2026-03-23T16:01:57+00:00",
   "description" : "An Observation Resource used for FHIR Exchange",
   "fhirVersion" : "4.0.1",
   "mapping" : [{
@@ -102,7 +102,7 @@
       "id" : "Observation.identifier:uuid.system",
       "path" : "Observation.identifier.system",
       "min" : 1,
-      "patternUri" : "https://demo.openelis-global.org/result_uuid"
+      "patternUri" : "http://openelis-global.org/result_uuid"
     },
     {
       "id" : "Observation.basedOn",

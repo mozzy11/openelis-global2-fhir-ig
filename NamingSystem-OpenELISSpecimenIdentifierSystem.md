@@ -23,12 +23,12 @@
   "description" : "Defined url for Specimen identifier system url ",
   "uniqueId" : [{
     "type" : "uri",
-    "value" : "https://demo.openelis-global.org/sampleItem_uuid",
+    "value" : "http://openelis-global.org/sampleItem_uuid",
     "preferred" : true
   },
   {
     "type" : "uri",
-    "value" : "https://demo.openelis-global.org/sampleItem_labNo"
+    "value" : "http://openelis-global.org/sampleItem_labNo"
   }]
 }
 

@@ -13,7 +13,7 @@
   "name" : "OpenELISOrganisation",
   "title" : "OpenELIS Organization",
   "status" : "draft",
-  "date" : "2026-03-23T15:46:49+00:00",
+  "date" : "2026-03-23T16:01:57+00:00",
   "description" : "A Organization Resource used for FHIR Exchange",
   "fhirVersion" : "4.0.1",
   "mapping" : [{
@@ -104,7 +104,7 @@
       "id" : "Organization.identifier:cliaNum.system",
       "path" : "Organization.identifier.system",
       "min" : 1,
-      "patternUri" : "https://demo.openelis-global.org/org_cliaNum"
+      "patternUri" : "http://openelis-global.org/org_cliaNum"
     },
     {
       "id" : "Organization.identifier:shortName",
@@ -117,7 +117,7 @@
       "id" : "Organization.identifier:shortName.system",
       "path" : "Organization.identifier.system",
       "min" : 1,
-      "patternUri" : "https://demo.openelis-global.org/org_shortName"
+      "patternUri" : "http://openelis-global.org/org_shortName"
     },
     {
       "id" : "Organization.identifier:code",
@@ -130,7 +130,7 @@
       "id" : "Organization.identifier:code.system",
       "path" : "Organization.identifier.system",
       "min" : 1,
-      "patternUri" : "https://demo.openelis-global.org/org_code"
+      "patternUri" : "http://openelis-global.org/org_code"
     },
     {
       "id" : "Organization.identifier:uuid",
@@ -143,7 +143,7 @@
       "id" : "Organization.identifier:uuid.system",
       "path" : "Organization.identifier.system",
       "min" : 1,
-      "patternUri" : "https://demo.openelis-global.org/org_uuid"
+      "patternUri" : "http://openelis-global.org/org_uuid"
     },
     {
       "id" : "Organization.type",

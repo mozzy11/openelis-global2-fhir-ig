@@ -23,20 +23,20 @@
   "description" : "Defined url for OpenELISOrganization identifier system url ",
   "uniqueId" : [{
     "type" : "uri",
-    "value" : "https://demo.openelis-global.org/org_uuid",
+    "value" : "http://openelis-global.org/org_uuid",
     "preferred" : true
   },
   {
     "type" : "uri",
-    "value" : "https://demo.openelis-global.org/org_cliaNum"
+    "value" : "http://openelis-global.org/org_cliaNum"
   },
   {
     "type" : "uri",
-    "value" : "https://demo.openelis-global.org/org_shortName"
+    "value" : "http://openelis-global.org/org_shortName"
   },
   {
     "type" : "uri",
-    "value" : "https://demo.openelis-global.org/org_code"
+    "value" : "http://openelis-global.org/org_code"
   }]
 }
 

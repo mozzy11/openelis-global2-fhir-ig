@@ -23,7 +23,7 @@
   "description" : "Defined url for OpenElisDiagnosticReport identifier system url ",
   "uniqueId" : [{
     "type" : "uri",
-    "value" : "https://demo.openelis-global.org/analysisResult_uuid",
+    "value" : "http://openelis-global.org/analysisResult_uuid",
     "preferred" : true
   }]
 }

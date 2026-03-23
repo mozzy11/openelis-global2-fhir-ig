@@ -13,7 +13,7 @@
   "name" : "OpenELISServiceRequest",
   "title" : "OpenELIS Service Request",
   "status" : "draft",
-  "date" : "2026-03-23T15:46:49+00:00",
+  "date" : "2026-03-23T16:01:57+00:00",
   "description" : "OpenELIS service request",
   "fhirVersion" : "4.0.1",
   "mapping" : [{
@@ -93,7 +93,7 @@
       "id" : "ServiceRequest.identifier:uuid.system",
       "path" : "ServiceRequest.identifier.system",
       "min" : 1,
-      "patternUri" : "https://demo.openelis-global.org/analysis_uuid"
+      "patternUri" : "http://openelis-global.org/analysis_uuid"
     },
     {
       "id" : "ServiceRequest.identifier:labNo",
@@ -106,7 +106,7 @@
       "id" : "ServiceRequest.identifier:labNo.system",
       "path" : "ServiceRequest.identifier.system",
       "min" : 1,
-      "patternUri" : "https://demo.openelis-global.org/samp_labNo"
+      "patternUri" : "http://openelis-global.org/samp_labNo"
     },
     {
       "id" : "ServiceRequest.status",

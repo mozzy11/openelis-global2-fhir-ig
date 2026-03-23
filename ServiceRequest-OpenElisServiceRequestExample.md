@@ -12,11 +12,11 @@
     "profile" : ["http://digi-uw.github.io/openelis-global-ig/StructureDefinition/openelis-service-request"]
   },
   "identifier" : [{
-    "system" : "https://demo.openelis-global.org/analysis_uuid",
+    "system" : "http://openelis-global.org/analysis_uuid",
     "value" : "0a65ab46-179e-4506-9fa3-09d342268576"
   },
   {
-    "system" : "https://demo.openelis-global.org/samp_labNo",
+    "system" : "http://openelis-global.org/samp_labNo",
     "value" : "TESTA230000000001749"
   }],
   "status" : "active",

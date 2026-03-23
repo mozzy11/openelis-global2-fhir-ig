@@ -12,7 +12,7 @@
     "profile" : ["http://digi-uw.github.io/openelis-global-ig/StructureDefinition/open-elis-observation"]
   },
   "identifier" : [{
-    "system" : "https://demo.openelis-global.org/result_uuid",
+    "system" : "http://openelis-global.org/result_uuid",
     "value" : "158999b0-b295-4dfd-a5b0-81ed58733b5f"
   }],
   "basedOn" : [{

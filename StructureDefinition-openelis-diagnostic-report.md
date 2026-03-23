@@ -13,7 +13,7 @@
   "name" : "OpenELISDiagnosticReport",
   "title" : "OpenELIS Diagnostic Report",
   "status" : "draft",
-  "date" : "2026-03-23T15:46:49+00:00",
+  "date" : "2026-03-23T16:01:57+00:00",
   "description" : "DiagnosticReport resource created by a LIS",
   "fhirVersion" : "4.0.1",
   "mapping" : [{
@@ -88,7 +88,7 @@
       "id" : "DiagnosticReport.identifier:uuid.system",
       "path" : "DiagnosticReport.identifier.system",
       "min" : 1,
-      "patternUri" : "https://demo.openelis-global.org/analysisResult_uuid"
+      "patternUri" : "http://openelis-global.org/analysisResult_uuid"
     },
     {
       "id" : "DiagnosticReport.basedOn",

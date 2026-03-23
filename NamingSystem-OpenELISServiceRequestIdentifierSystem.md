@@ -23,12 +23,12 @@
   "description" : "Defined url for OpenELISServiceRequest identifier system url ",
   "uniqueId" : [{
     "type" : "uri",
-    "value" : "https://demo.openelis-global.org/analysis_uuid",
+    "value" : "http://openelis-global.org/analysis_uuid",
     "preferred" : true
   },
   {
     "type" : "uri",
-    "value" : "https://demo.openelis-global.org/samp_labNo"
+    "value" : "http://openelis-global.org/samp_labNo"
   }]
 }
 

@@ -13,7 +13,7 @@
   "name" : "OpenElisSpecimen",
   "title" : "OpenElis Specimen",
   "status" : "draft",
-  "date" : "2026-03-23T15:46:49+00:00",
+  "date" : "2026-03-23T16:01:57+00:00",
   "description" : "A Specimen Resource used for FHIR Exchange",
   "fhirVersion" : "4.0.1",
   "mapping" : [{
@@ -83,7 +83,7 @@
       "id" : "Specimen.identifier:uuid.system",
       "path" : "Specimen.identifier.system",
       "min" : 1,
-      "patternUri" : "https://demo.openelis-global.org/sampleItem_uuid"
+      "patternUri" : "http://openelis-global.org/sampleItem_uuid"
     },
     {
       "id" : "Specimen.accessionIdentifier",

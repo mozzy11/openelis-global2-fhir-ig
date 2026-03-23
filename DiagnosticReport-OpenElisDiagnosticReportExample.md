@@ -12,7 +12,7 @@
     "profile" : ["http://digi-uw.github.io/openelis-global-ig/StructureDefinition/openelis-diagnostic-report"]
   },
   "identifier" : [{
-    "system" : "https://demo.openelis-global.org/analysisResult_uuid",
+    "system" : "http://openelis-global.org/analysisResult_uuid",
     "value" : "f3c9cf5e-7d41-4a7d-a77b-8c0f4323a0bd"
   }],
   "basedOn" : [{

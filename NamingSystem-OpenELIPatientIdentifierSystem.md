@@ -23,24 +23,24 @@
   "description" : "Defined url for OpenELISPatient identifier system url ",
   "uniqueId" : [{
     "type" : "uri",
-    "value" : "https://demo.openelis-global.org/pat_nationalId",
+    "value" : "http://openelis-global.org/pat_nationalId",
     "preferred" : true
   },
   {
     "type" : "uri",
-    "value" : "https://demo.openelis-global.org/pat_subjectNumber"
+    "value" : "http://openelis-global.org/pat_subjectNumber"
   },
   {
     "type" : "uri",
-    "value" : "https://demo.openelis-global.org/pat_stNumber"
+    "value" : "http://openelis-global.org/pat_stNumber"
   },
   {
     "type" : "uri",
-    "value" : "https://demo.openelis-global.org/pat_guid"
+    "value" : "http://openelis-global.org/pat_guid"
   },
   {
     "type" : "uri",
-    "value" : "https://demo.openelis-global.org/pat_uuid"
+    "value" : "http://openelis-global.org/pat_uuid"
   }]
 }
 

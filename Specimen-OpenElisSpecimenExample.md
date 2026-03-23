@@ -12,11 +12,11 @@
     "profile" : ["http://digi-uw.github.io/openelis-global-ig/StructureDefinition/open-elis-specimen"]
   },
   "identifier" : [{
-    "system" : "https://demo.openelis-global.org/sampleItem_uuid",
+    "system" : "http://openelis-global.org/sampleItem_uuid",
     "value" : "9df49e2d-57f7-4e7b-abb1-54d0a1933253"
   }],
   "accessionIdentifier" : {
-    "system" : "https://demo.openelis-global.org/sampleItem_labNo",
+    "system" : "http://openelis-global.org/sampleItem_labNo",
     "value" : "TESTA230000000001751"
   },
   "status" : "available",
