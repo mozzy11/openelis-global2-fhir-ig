@@ -13,12 +13,12 @@
   "name" : "OpenELISDiagnosticReport",
   "title" : "OpenELIS Diagnostic Report",
   "status" : "draft",
-  "date" : "2026-05-11T11:00:24+00:00",
+  "date" : "2026-05-11T11:12:50+00:00",
   "description" : "DiagnosticReport resource created by a LIS",
   "fhirVersion" : "4.0.1",
   "mapping" : [{
     "identity" : "oe-diagnostic-report-mapping",
-    "uri" : "http://digi-uw.github.io/openelis-global-ig/StructureDefinition/open-elis-diagnostic-report",
+    "uri" : "DiagnosticReport",
     "name" : "OpenELIS Vs FHIR",
     "comment" : "DiagnosticReport Mapping shows how attributes of FHIR DiagnosticReport Resource maps to and from the attributes of OpenElis SampleItem Object."
   },

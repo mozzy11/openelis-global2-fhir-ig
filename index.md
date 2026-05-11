@@ -13,7 +13,7 @@
   "name" : "OpenELISImplementationGuide",
   "title" : "OpenELIS GLOBAL2 Implementation Guide",
   "status" : "draft",
-  "date" : "2026-05-11T11:00:24+00:00",
+  "date" : "2026-05-11T11:12:50+00:00",
   "description" : "An Implementation Guide covering the OpenELIS GLOBAL2 implementation of FHIR",
   "packageId" : "openelis",
   "license" : "CC-BY-SA-4.0",
