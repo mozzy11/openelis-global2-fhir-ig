@@ -13,7 +13,7 @@
   "name" : "OpenELISLocation",
   "title" : "OpenELIS Facility Location",
   "status" : "draft",
-  "date" : "2026-03-23T16:01:57+00:00",
+  "date" : "2026-05-11T11:00:24+00:00",
   "description" : "A Location Resource used for FHIR Exchange",
   "fhirVersion" : "4.0.1",
   "mapping" : [{
